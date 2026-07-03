@@ -194,35 +194,35 @@ Network Layer (ApiService)
 **文件**：[HomeScreen.kt](file:///e:/anstdio/Finly/app/src/main/java/com/example/finly/ui/screens/HomeScreen.kt)
 
 说明：展示视频内容首页，包含搜索栏、分类导航栏（电视剧/电影/动漫/综艺等7个分类）、轮播图 Banner、视频双列网格。用户可以点击分类切换内容，点击筛选按钮进行多条件筛选，点击视频卡片进入详情页。
-![alt text](home.png)
+![首页截图](screenshots/home.png)
+
 ### 电影分析页（核心功能页）
 **文件**：[VipScreen.kt](file:///e:/anstdio/Finly/app/src/main/java/com/example/finly/ui/screens/VipScreen.kt)
 
 说明：AI 智能电影分析功能。用户输入电影名称或关键词（如"科幻电影"、"悬疑片"），点击"分析"按钮后，调用阿里云通义千问大模型 API，生成包含影片简介、导演、主演、评分、网友评论、推荐等级的专业分析报告。支持 Loading 加载状态、错误状态、以及网络失败时的本地数据降级。
-![alt text](detail.png)
+![首页截图](screenshots/detail.png)
 ### 搜索页
 **文件**：[SearchScreen.kt](file:///e:/anstdio/Finly/app/src/main/java/com/example/finly/ui/screens/SearchScreen.kt)
 
 说明：提供搜索历史、热门搜索（可换一批）、搜索结果列表功能。搜索结果支持实时展示，点击结果可跳转至视频详情页。
-![alt text](other.png)
+![首页截图](screenshots/other.png)
 ### 视频详情页
 **文件**：[VideoDetailScreen.kt](file:///e:/anstdio/Finly/app/src/main/java/com/example/finly/ui/screens/VideoDetailScreen.kt)
 
 说明：展示视频播放区域、视频信息（标题、评分、播放量等）、功能操作按钮（预约/加追、下载、收藏、周边）、Tab 切换（简介/评论/相关推荐）。评论区根据视频类型展示不同的模拟评论数据。
-![alt text](xiangqing.png)
+![首页截图](screenshots/xiangqing.png)
 ### 登录注册页
 **文件**：[AuthScreen.kt](file:///e:/anstdio/Finly/app/src/main/java/com/example/finly/ui/screens/AuthScreen.kt)
 
 说明：支持登录和注册两种模式切换。包含用户名、密码、昵称输入框，输入验证和错误提示，密码可见性切换，注册成功弹窗等功能。用户数据通过 SharedPreferences 持久化存储。
-![alt text](denglu.png) 
-![alt text](zhuce.png)
+![首页截图](screenshots/denglu.png)
+![首页截图](screenshots/zhuce.png)
 ### 个人中心页
 **文件**：[AuthScreen.kt](file:///e:/anstdio/Finly/app/src/main/java/com/example/finly/ui/screens/gerenxhongxing.kt)
 
 说明：可以查看自己的账号，退出登录，还可以查看自己的观看历史记录，登录成功后可以查看预约/追击、下载、收藏、周边的历史记录，不登录则不能查看。
-![alt text](xiazai.png) 
-![alt text](gerenzhongxin.png)
-
+![首页截图](screenshots/xiazai.png)
+![首页截图](screenshots/gerenzhongxin.png)
 ## 8. 技术难点与解决方案
 
 ### 难点 1：AI 电影分析功能的网络状态处理
